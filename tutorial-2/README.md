@@ -225,7 +225,7 @@ You will learn more about debhelper in tutorial 3.
 Now you are ready to build the package:
 
 ~~~bash
-dpkg-buildpackage -b
+dpkg-buildpackage -b --no-sign
 ~~~
 
 The `-b` flag tells dpkg-buildpackage to build a binary package.
