@@ -183,7 +183,7 @@ Finally, it calls `dh_gencontrol` and `dh_builddeb` to generate our .deb files: 
 Run:
 
 ~~~bash
-dpkg-buildpackage -b
+dpkg-buildpackage -b --no-sign
 ~~~
 
 ### Examening debhelper's behavior
