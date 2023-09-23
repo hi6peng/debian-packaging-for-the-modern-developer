@@ -220,7 +220,7 @@ override_dh_auto_install:
 Build the package:
 
 ~~~bash
-dpkg-buildpackage -b
+dpkg-buildpackage -b --no-sign
 ~~~
 
 Then:

@@ -146,7 +146,7 @@ binary:
 ### Building and verifying the package
 
 ~~~
-$ dpkg-buildpackage -b
+$ dpkg-buildpackage -b --no-sign
 $ sudo gdebi -n ../hello_3.0.0-2_<ARCH>.deb
 $ hello
 hello 3.0.0
